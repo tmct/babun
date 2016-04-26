@@ -93,3 +93,4 @@ set t_Co=256
 syntax on
 silent! colorscheme ir_black
 set bs=2
+autocmd BufNewFile,BufRead *.less   set syntax=css
